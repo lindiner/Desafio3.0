@@ -1,0 +1,470 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+    font-family: 'Poppins',sans-serif;
+}
+
+.logomarca{
+    width: 113px;
+    height: 33px;
+    background: url("../img/logo\ everest.png");
+    display: block;
+}
+
+.logo{
+
+    float: left;
+}
+
+.menu{
+
+    float: right;
+
+}
+.menu__li{
+    float: left;
+    margin: 0 10px;
+}
+.menu__link{
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 16px;
+
+}
+.menu__link:hover{
+    color: #4CA42F;
+}
+
+.clear{
+    clear: both;
+}
+
+.center{
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.apresentacao{
+    background: url("../img/montanha.png") no-repeat center 0;
+    padding-top: 40px;
+}
+
+
+.bt-signin{
+    border: 1px solid #ffffff ;
+    text-decoration:  none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 4px;
+    margin-left: 40px;
+
+}
+.bt-signin:hover{
+    background: #2F281E;
+    border-color: #2F281E;
+}
+
+.bt-signup{
+    text-decoration:  none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 10px 30px;
+    border-radius: 4px;
+    background: #2F281E;
+}
+
+.bt-signup:hover{
+    background: #ffffff;
+    color: #ff4f4f;
+}
+
+.title_apresentacao{
+    line-height: 48px;
+    font: 150px Candara;
+    color: #000000;
+
+}
+
+
+.descricao-apresentacao{
+    line-height: 24px;
+    font: 20px Candara;
+    letter-spacing: 2px;
+    color: #000000;
+
+}
+#pTextoI{
+    text-align: left;
+    font: bold 15 Candara;
+    letter-spacing: 2px;
+    color: #4CA42F;
+}
+.dadoI{
+    text-align: left;
+    font:  100px/123px Segoe UI;
+    letter-spacing: 6px;
+    color: #4CA42F;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+}
+.textoI{
+    text-align: left;
+    font:  36px/30px Candara;
+    letter-spacing: 2.4px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.bt-red{
+    background: #4CA42F;
+    font-size: 16PX;
+    font-weight: 600;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.bt-red:hover{
+    color: #4CA42F;
+    background: #ffffff;
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, .3);
+}
+
+.apresentacao__descricao{
+    width: 50% ;
+    float: left;
+    padding-top: 60px;
+}
+
+.apresentacao__video{
+    width: 50% ;
+    float: left;
+}
+
+.apresentacao__box{
+   padding-top: 100px;
+}
+
+
+/* parte 2 */
+
+#about.center{
+    padding-top: 300px;
+}
+
+.box-ilustracao{
+    width: 50%;
+    float: left;
+}
+.about-box{
+    width: 50%;
+    float: left;
+    margin: 80px 0 ;
+}
+
+.about-box__title{
+    line-height: 19px;
+    color: #000000;
+    font: normal normal normal 66px/67px Candara;
+    letter-spacing: 4.4px;
+
+}
+
+.about-box__title span{
+    float: left;
+    opacity: .7;
+    padding: 7px 10px 0 10px ;
+}
+
+.about-box__title i{
+    float: left;
+
+}
+
+.bt-red{
+    float: left;
+}
+
+.box-buuton{
+    margin-top: 30px;
+}
+
+.box-ilustracao__conte{
+    margin: 70px 0;
+    padding-right: 60px;
+}
+
+.img-responsivo{
+    width: 100%;
+    margin: auto;
+}
+
+
+/*parte 3*/
+
+.box-icone-titlo{
+    font: normal normal normal 97px/133px Segoe UI;
+    letter-spacing: 6.47px;
+    color: #4CA42F;
+    text-transform: uppercase;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.box-icone-tex{
+    font: normal normal normal 20 Candara;
+    letter-spacing: 2.53px;
+    color: #000000;
+    text-transform: uppercase;
+    text-align: center;
+}
+#sub{
+    font: normal normal normal 20 Candara;
+    letter-spacing: 2.53px;
+    color: #000000;
+    text-align: center;
+}
+#prof{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000029;
+    border: 1px solid #4CA42FA3;
+    border-radius: 49px;
+    opacity: 1;
+}
+
+.box-wrapper{
+    width: 25%;
+    float: left;
+    margin: 70px 0;
+}
+
+.box-wrapper-tabela{
+border-radius: 10px;
+}
+
+.tabela-box-titulo{
+    text-align: center;
+    font: normal normal normal 88px Candara;
+    letter-spacing: 0px;
+    color: #262626;
+
+}
+.box-titlo{
+    text-align: center;
+    font: normal normal bold 40px/49px Candara;
+    letter-spacing: 0px;
+    color: #262626;
+}
+.box-tex{
+    text-align: left;
+    font: normal normal normal 20px/14px Candara;
+    letter-spacing: 0px;
+    color: #1C1B1B;
+    margin: 30px 10px;
+}
+.box-buuton-tabela{
+    margin-top: 70px;
+    align-items: center;
+    margin-left: 50px;
+
+}
+
+
+
+
+.box-stiry{
+
+    width: 50%;
+    float: left;
+    position: relative;
+
+}
+
+.storys-title{
+font-size: 26px;
+line-height: 28px;
+color: #111111;
+font-weight: 600;
+margin-bottom: 20px;
+
+}
+
+.storys-text{
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.storys-text span{
+    text-decoration: underline;
+}
+
+.story-wffat{
+    padding-left: 70px;
+    padding-right: 70px;
+
+}
+
+.bord{
+    font-weight: 500;
+}
+
+.story__wrapper{
+    padding-top: 100px;
+
+}
+
+
+
+/*parte 100000*/
+
+.news-box{
+    background: url("../img/montArv.png") 0 0 no-repeat;
+    height: 400px ;
+    margin: 60px 150px ;
+    padding-top: 50px;
+    padding-left: 500px;
+
+
+}
+
+#nome,#email,#mensagem{
+    text-align: left;
+    letter-spacing: 0.18px;
+    color: #000000;
+
+}
+#formulario{
+
+    text-align: left;
+    letter-spacing: 0.18px;
+    color: #000000;
+}
+input[type=text],[type=email] {
+    border: none;
+    border-bottom: 2px solid green;
+  }  
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+/*parte final*/
+
+.foter-title{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #2f2f2f;
+    margin-bottom: 30px;
+    display: block;
+}
+
+.foter-menu{
+    margin-bottom: 15px;
+}
+
+.foter-drescricao{
+    color: #544837;
+    line-height: 27px;
+    font-size: 18px;
+    margin-top: 20px;
+
+}
+
+.foter{
+    padding-top: 30px;
+
+}
+
+.foter .center{
+   border-top: 1px solid #dee8f2; 
+   padding-top: 50px 0;
+   border-bottom: 1px solid #dee8f2;
+}
+
+.foter-box{
+    width: 40%;
+    float: left;
+    padding-top: 20px;
+   
+}
+
+.foter-menu-box{
+    width: 30%;
+    float: left;
+    padding-top: 20px;
+}
+
+.foter-auto{
+    text-align: center;
+    font-size: 14px;
+    color: #505230;
+    padding: 20px 0;
+
+}
+
+.foter-auto a{
+    color: #4CA42F ;
+}
